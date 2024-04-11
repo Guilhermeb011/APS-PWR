@@ -1,0 +1,114 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4a4857;
+  }
+
+  
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+h1, h2, h3{
+
+    text-align: center;
+
+}
+
+footer{
+
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #4a4857;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+}
+
+.tela-principal{
+    padding: 10px;
+    width: 100%;
+    height: 350px;
+    background-color: #77b885;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.carrossel{
+    height: 300px;
+    width: 70%;
+    background-color: red;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.tela-abaixo{
+
+    padding: 10px;
+    width: 100%;
+    height: 450px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.img-1{
+
+    display: flex;
+    background-color: chartreuse;
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+.imagem-sustenta{
+
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.texto-inicial{
+    display: flex;
+    background-color: yellow;
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    border: 5px solid gray;
+    margin: 0;
+    overflow: auto;
+
+}
+
