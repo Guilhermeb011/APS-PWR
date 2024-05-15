@@ -1,0 +1,497 @@
+*{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+    overflow: hidden;
+    background-color: #4a4857;
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    justify-content: center;
+  }
+
+  .home{
+    float: left;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+h1, h2, h3{
+
+    text-align: center;
+
+}
+
+footer{
+
+  width: 100%;
+  bottom: 0;
+  background-color: #4a4857;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  color: white;
+
+}
+
+.titulo{
+  background-color: #6da67a;
+  color: white;
+  justify-content: center;
+  padding: 20px;
+}
+
+.tela-principal{
+  padding: 10px;
+  width: 100%;
+  height: 350px;
+  background-image: linear-gradient(#6da67a, #859987);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+/* SLIDE */
+
+section.slider{
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.slider-content{
+  width: 400%;
+  height: auto;
+  display: flex;
+}
+
+.slider-content input{
+  display: none;
+}
+
+.slide-box{
+  width: 25%;
+  height: auto;
+  position: relative;
+  text-align: center;
+  transition: 1s;
+}
+
+.slide-box img{
+  width: 100%;
+}
+ 
+/* Parte para colocar o botão no devido lugar de acordo com o margin-top */
+
+.nav-manual, .nav-auto{
+  position: absolute;
+  width: 100%;
+  margin-top: 65%;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+  border: 1px solid green;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+  margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover{
+  background-color: #6da67a;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1{
+    background-color: #6da67a;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2{
+  background-color: #6da67a;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3{
+  background-color: #6da67a;
+}
+
+#radio1:checked ~ .primeiro{
+  margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+  margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+  margin-left: -50%;
+}
+
+
+
+.tela-abaixo{
+
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: #6da67a;
+    
+
+}
+
+
+.img-1{
+
+    display: flex;
+    background-color: chartreuse;
+    width: 30%;
+    height: 300px;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+
+.texto-inicial{
+
+    display: flex;
+    background-color: #4a4857;
+    color: white;
+    width: 100%;
+    height: 440px;
+    padding: 30px;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    overflow-y: scroll;
+    text-align: justify;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+/* SOBRE */
+
+.cont-imagem-sobre{
+  background-color: #6da67a;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.img-sobre1{
+  padding: 12px;
+  margin: 12px;
+  width: 80%;
+  height: 80%;
+  background-color: #859987;
+
+}
+
+.cont-principal-sobre{
+  background-color: #6da67a;
+  padding: 20px;
+  display: flex;
+  width: 100%;  
+  text-overflow: ellipsis;
+  display: flex;
+
+}
+
+
+
+.cards-nos{
+  display: inline-flex;
+  width: 100%;
+  height: 400px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #6da67a;
+
+}
+
+div.card-individual{
+  display: flex;
+  margin: 30px;
+  background-color: #4a4857;
+  color: white;
+
+}
+
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container-card {
+  padding: 2px 16px;
+}
+
+img.foto-card{
+
+  width: 170px;
+  height: 170px;
+  margin: auto;
+
+}
+
+/* TABS */
+
+.tab {
+  overflow: hidden;
+  background-color: #4a4857;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+}
+
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+
+.tab button.active {
+  background-color: #424242;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+  color: white;
+  background-color: #4a4857;
+}
+
+/* CONTATO */
+
+  div.bg-form{
+    align-items: center;
+    justify-content: center;
+    height: 720px;
+    display: flex;
+    overflow: hidden;
+    background-color: #6da67a;
+  }
+
+  .box-form{
+
+    display: flex;
+    width: 500px;
+  }
+
+  form {
+    font-size: 15px;
+    max-width: 500px;
+  }
+
+  h1.fale-conosco {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+  }
+
+  input, textarea {
+    width: 200px;
+    padding: 10px;
+    color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 1px solid;
+  }
+
+
+  .enviar {
+    background-color: red;
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid;
+    color: black;
+  }
+
+  textarea {
+    width: 400px;
+    height: 120px;
+    line-height: 20px;
+    max-width: 400px;
+  }
+
+  form label {
+    margin-left: 20px;
+    color: #FFFFFF;
+    font-weight: bold;
+  }
+
+
+/* TOP E BOTTOM DAS PAGINAS */
+
+.top-pag{
+  display: flex;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  background-color: #6da67a;
+}
+
+.bt-pag{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #6da67a;
+
+}
+
+
+
+.img-artigo{
+  background-color: #6da67a;
+  width: 40%;
+  height: 70%;
+  justify-content: center;
+  text-align: center;
+}
+
+.texto-artigo{
+
+  display: flex;
+  background-color: #4a4857;
+  color: white;
+  width: 90%;
+  height: 400px;
+  padding: 30px;
+  text-align: justify;
+  text-overflow: ellipsis;
+  font-size: 20px;
+  overflow-y: scroll;
+
+}
+
+
+.img-ancora-artigo{
+  height: 100%;
+}
+
+/* CAIXA DE TEXTO USADA NAS PAGINAS */
+
+.box{
+  padding: 2%;
+  margin: 50px;
+  text-align: justify;
+  background-color: #4a4857;
+  align-items: center;
+  justify-content: right;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: white;
+  font-size: 18px;
+  }
+
+.box-sobre{
+  display: flex;
+  background-color: #6da67a;
+}
+
+/* PAG ONG */
+
+.tabela{
+  margin: 5px;
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+  
+.video-ong{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #6da67a;
+}
+
+/* DIV QUE SEPARA (GAMBIARRA) */
+
+.separa{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #6da67a;
+}
