@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!--IMPORTAÇÃO CSS/JS-->
+  <link rel="stylesheet" type="text/css" href="estilo.css" />
+  <script src="script.js" defer></script>
+  <!--METAS-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="Sustentabilidade, Tecnologias, Virtual, Desenvolvimento">
+  <meta name="robots" content="index, follow">
+  <title>Escolas Sustentáveis</title>
+  <link rel="shortcut icon" type="imagex/png" href="./imagens/favicon.ico">
+</head>
+
+<body>
+  <header>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li class="home">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="subs">
+            <a href="sobre.html">Sobre Nós</a>
+          </li>
+          <li class="subs">
+            <a href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div> <!--MENU-->
+  </header>
+  <div class="titulo">
+    <h1>Escolas sustentáveis</h1>
+  </div>
+  <section class="slider">
+    <!--Sessão feita para o slide, os IDs são pra utilizar posteriormente no script e no Style-->
+
+    <div class="slider-content">
+      <input type="radio" name="btn-radio" id="radio1" />
+      <input type="radio" name="btn-radio" id="radio2" />
+      <input type="radio" name="btn-radio" id="radio3" />
+
+      <div class="slide-box primeiro">
+        <a href="artigo2.html">
+          <img class="img-slide" src="imagens/Escola Sustentável.jpg" alt="Artigo sobre escolas sustentáveis" />
+        </a>
+      </div>
+
+      <div class="slide-box">
+        <a href="artigo1.html">
+          <img class="img-slide" src="imagens/Estudo Sustentável.jpg"
+            alt="Artigo sobre dicas e outros links ensinando sobre sustentabilidade" />
+        </a>
+      </div>
+
+      <div class="slide-box">
+        <a href="ongs.html">
+          <img class="img-slide" src="imagens/Ongs.png" alt="Artigo sobre Ongs" />
+        </a>
+      </div>
+
+      <!--Parte para a locomoção do slide, sendo feito o automático e o manual clicando pelos botões-->
+
+      <div class="nav-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+      </div>
+
+      <div class="nav-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+      </div>
+    </div>
+  </section>
+
+  <div class="titulo">
+    <h2>
+      A importancia da educação sustentavel.
+    </h2>
+  </div>
+
+  <section class="tela-abaixo">
+
+    <div class="box">
+      <p>A importância da educação sustentável reside na sua capacidade de preparar as gerações presentes e futuras para
+        lidar com os desafios ambientais,
+        sociais e econômicos de forma integrada e responsável. Por meio da educação sustentável, os alunos desenvolvem
+        conhecimentos, habilidades e atitudes
+        que promovem a conservação do meio ambiente, o desenvolvimento econômico equitativo e a justiça social.
+      </p>
+      <br>
+      <p>Este tipo de educação não apenas fornece informações sobre questões ambientais e soluções práticas, mas também
+        estimula a reflexão crítica, incentivando
+        os alunos a questionarem as causas subjacentes dos problemas ambientais e a explorarem novas maneiras de viver e
+        interagir com o mundo ao seu redor.
+      </p>
+    </div>
+
+    <div class="box">
+      <p>Além disso, a educação sustentável promove a consciência interdisciplinar, conectando conceitos e temas de
+        diferentes áreas do conhecimento, como ciências
+        naturais, ciências sociais, economia e ética. Isso permite aos alunos compreenderem a complexidade dos sistemas
+        naturais e humanos e a interdependência entre eles.
+      </p>
+      <br>
+      <p>Ao incorporar princípios de sustentabilidade em todos os aspectos da vida escolar, desde a gestão do ambiente
+        físico até o currículo e as práticas pedagógicas,
+        as escolas se tornam locais de aprendizado vivo, onde os alunos não apenas adquirem conhecimentos acadêmicos,
+        mas também experiências práticas de como viver de maneira mais sustentável.
+      </p>
+    </div>
+
+    <div class="box">
+      <p>
+        Ao integrar princípios de sustentabilidade em todas as facetas da vida escolar, as escolas não apenas fornecem
+        conhecimentos e habilidades práticas,
+        mas também cultivam atitudes e valores que promovem a preservação do meio ambiente, o desenvolvimento equitativo
+        e a justiça social.
+      </p>
+      <br>
+      <p>
+        Portanto, investir na educação sustentável não é apenas uma medida prudente, mas uma necessidade urgente em um
+        mundo cada vez mais
+        interconectado e vulnerável. Ao fazê-lo, estamos não apenas capacitando as gerações presentes e futuras a
+        enfrentarem os desafios do século XXI,
+        mas também construindo um caminho para um futuro mais promissor e sustentável para todos.
+      </p>
+    </div>
+
+
+    <div class="box">
+      <p>
+        Se quiser se aprofundar no assunto, entender e aprender a implementar métodos para a construção de uma escola
+        mais sustentavel, clique nas imagens que estão passando acima, elas vão te redirecionar para o conteudo
+      </p>
+    </div>
+
+    <!-- Link refêrencia para o texto acima:
+            https://www.portaldaindustria.com.br/industria-de-a-z/sustentabilidade/#:~:text=O%20que%20é%20sustentabilidade%3F,econômico%20e%20a%20preservação%20ambiental.
+        -->
+
+  </section>
+
+  <div class="titulo">
+    <h2>
+      3 PASSOS PARA TORNAR UMA ESCOLA MAIS SUSTENTÁVEL
+    </h2>
+  </div>
+
+  <div class="tab">
+    <button class="tablinks" onclick="abreTab(event, 'Tab1')">PLANEJAMENTO</button>
+    <button class="tablinks" onclick="abreTab(event, 'Tab2')">PRÁTICAS SUSTENTÁVEIS</button>
+    <button class="tablinks" onclick="abreTab(event, 'Tab3')">CONSCIÊNTIZAÇÃO</button>
+  </div>
+
+  <div id="Tab1" class="tabcontent">
+    <br>
+    <h3>PLANEJAMENTO</h3>
+    <br><br>
+    <p> O primeiro passo é realizar uma avaliação abrangente do atual impacto ambiental, social e econômico da escola.
+      Isso inclui analisar o consumo de recursos, como energia, água e materiais, bem como as práticas de gestão de
+      resíduos e as condições sociais dentro da comunidade escolar. Com base nessa avaliação, é essencial desenvolver um
+      plano de ação sustentável que estabeleça metas claras e específicas para reduzir o impacto ambiental, promover a
+      equidade social e melhorar a eficiência econômica da escola.</a></p>
+    <br>
+  </div>
+
+  <div id="Tab2" class="tabcontent">
+    <br>
+    <h3>PRÁTICAS SUSTENTÁVEIS</h3>
+    <br><br>
+    <p> Uma vez que o plano de ação sustentável tenha sido desenvolvido, o próximo passo é implementar práticas
+      sustentáveis em toda a escola. Isso pode incluir a instalação de tecnologias verdes, como sistemas de energia
+      renovável e eficiência energética, a implementação de programas de reciclagem e compostagem, a promoção de
+      transporte sustentável, como caminhar e andar de bicicleta para a escola, e a integração de temas de
+      sustentabilidade no currículo escolar. Além disso, é importante envolver os alunos, professores, funcionários e a
+      comunidade local no processo de implementação, incentivando a participação e o engajamento de todos os membros da
+      comunidade escolar.</p>
+    <br>
+  </div>
+
+  <div id="Tab3" class="tabcontent">
+    <br>
+    <h3>CONSCIÊNTIZAÇÃO</h3>
+    <br><br>
+    <p> Por fim, é essencial incorporar a educação para a sustentabilidade em todas as facetas da vida escolar. Isso
+      inclui fornecer oportunidades de aprendizado sobre questões ambientais, sociais e econômicas, bem como promover
+      valores e habilidades que incentivem o pensamento crítico, a tomada de decisão responsável e a ação cidadã. A
+      educação para a sustentabilidade pode ser integrada ao currículo escolar por meio de projetos interdisciplinares,
+      atividades extracurriculares, programas de educação ao ar livre e parcerias com organizações locais e
+      especialistas em sustentabilidade.</a></p>
+    <br>
+  </div>
+
+
+
+  <footer>
+    <p class="para-rodape">
+      Todos os direitos reservados ©
+    </p>
+  </footer>
+
+</body>
+
+</html>
